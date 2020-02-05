@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-link-preview": [
+        "dist/ngx-link-preview"
+      ],
+      "ngx-link-preview/*": [
+        "dist/ngx-link-preview/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
