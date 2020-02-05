@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-ngx-link-preview',
+  // tslint:disable-next-line
+  selector: 'link-preview',
   template: `
     <p>
       ngx-link-preview works!
